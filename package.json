@@ -2,15 +2,18 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "a backend in nodejs",
+  "type": "module",
   "keywords": [
     "javascript",
     "backend"
   ],
   "license": "ISC",
   "author": "harsh",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
